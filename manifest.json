@@ -1,0 +1,45 @@
+{
+  "name": "PLSQL Formatter for APEX",
+  "version": "0.0.4",
+  "icons": {
+    "128": "128.png"
+  },
+  "description": "For APEX developers to add the Format Document command to the code editor",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ],
+      "content_security_policy": "script-src 'self'; script-src-elem 'self'"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "sqlFormatter.js",
+        "sql-formatter/sql-formatter.min.js",
+        "sql-formatter/sql-formatter.min.cjs",
+        "sql-formatter/sql-formatter.min.cjs.map",
+        "registerFormatter.js"
+      ],
+      "matches": [
+        "https://*/*"
+      ]
+    }
+  ],
+  "attributions": [
+    {
+      "icon": [
+        {
+          "source": "https://iconscout.com/icons/play-next",
+          "author": "https://iconscout.com/contributors/jemismali"
+        }
+      ]
+    }
+  ]
+}
