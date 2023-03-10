@@ -10,4 +10,4 @@
  6. Navigate to APEX page with code editor
  7. Right click and you should see Format Document option
 
- 
+ Note you might need to give the extension permission to run on individual sites. Pin it to the toolbar in Chrome to make this easier.
