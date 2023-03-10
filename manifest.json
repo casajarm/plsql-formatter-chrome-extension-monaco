@@ -31,15 +31,5 @@
         "https://*/*"
       ]
     }
-  ],
-  "attributions": [
-    {
-      "icon": [
-        {
-          "source": "https://iconscout.com/icons/play-next",
-          "author": "https://iconscout.com/contributors/jemismali"
-        }
-      ]
-    }
   ]
 }
