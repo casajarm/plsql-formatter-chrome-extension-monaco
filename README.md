@@ -1,4 +1,7 @@
 # plsql-formatter-chrome-extension-monaco
+ So that you can format your APEX SQL and PLSQL code here is a
+ 
+ 
  Chrome extension to inject plsql formatter module into pages hosting a Monaco code editor
 
  To use as a Chrome extension
