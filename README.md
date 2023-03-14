@@ -13,6 +13,8 @@
  Note you might need to give the extension permission to run on individual sites. Pin it to the toolbar in Chrome to make this easier.
 
 Acknowledgments:
-  icon
-    "source": "https://iconscout.com/icons/play-next",
-    "author": "https://iconscout.com/contributors/jemismali"
+ - formatter code:
+    - "source": https://github.com/sql-formatter-org/sql-formatter
+ - icon
+    - "source": "https://iconscout.com/icons/play-next",
+    - "author": "https://iconscout.com/contributors/jemismali"
